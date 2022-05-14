@@ -1,7 +1,6 @@
 # Meme impact on volatility across markets
--
 
-We are looking to evaluate the relationship between Social Commentary data and cryptocurrency price motion. We will initially be using the ‘mentions’ data to establish a high level view of this relationship and then proceed to further comb out that correlation in other coins. We will evaluate the relationship between mentions and price motion in ten coins and ten meme stocks.
+We are looking to evaluate the relationship between Social Commentary data and stock/cryptocurrency price motion. We will initially be using the ‘mentions’ data to establish a high level view of this relationship and then proceed to further comb out that correlation in other coins. We will evaluate the relationship between mentions and price motion in ten coins and ten meme stocks.
 
 ## Technologies
 
@@ -27,30 +26,18 @@ Before running the application first install the following dependencies.
 
 ```python
 import pandas as pd
+import requests
+import os
+from dotenv import load_dotenv
+import alpaca_trade_api as tradeapi
 import hvplot.pandas
-from pathlib import Path
-import geopandas as gpd
 ```
 
 ---
 
 ## Usage
 
-Use the san_francisco_housing.ipynb notebook to visualize and analyze the real-estate data.
-
-Create a visualization by using hvPlot and GeoViews. Additionally, you need to read the sfo_neighborhoods_census_data.csv file from the Resources folder into the notebook and create the DataFrame that you’ll use in the analysis.
-
-Use the san_francisco_housing.ipynb notebook to complete the following tasks:
-
-    Calculate and plot the housing units per year.
-
-    Calculate and plot the average prices per square foot.
-
-    Compare the average prices by neighborhood.
-
-    Build an interactive neighborhood map.
-
-    Compose your data story.
+Use the social_meme_impact.ipynb notebook to evaluate the last 24 hour period in order to compare the five leading stocks and cryptocurrencies price motion against the meme 'mentions' activity from apewisdom API .
 
 
 
@@ -58,7 +45,13 @@ Use the san_francisco_housing.ipynb notebook to complete the following tasks:
 
 ## Contributors
 
-Gerald Cortright and Berkeley Fintech support staff
+Team Members:
+Richie Martinez
+Abhi Banerjee
+Brian Kim
+Gerald Cortright
+Jennifer Jackson
+
 ---
 
 ## License
