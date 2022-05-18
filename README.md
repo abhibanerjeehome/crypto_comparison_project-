@@ -1,6 +1,6 @@
 # Meme impact on volatility across markets
 
-We are looking to evaluate the relationship between Social Commentary data and stock/cryptocurrency price motion. We will initially be using the ‘mentions’ data to establish a high level view of this relationship and then proceed to further comb out that correlation in other coins. We will evaluate the relationship between mentions and price motion in ten coins and ten meme stocks.
+We are looking to evaluate the relationship between Social Commentary data and stock/cryptocurrency price motion. Here we are using the ‘mentions’ data to establish a high level view of this relationship and then proceed to further comb out that correlation in other coins. We will evaluate the relationship between mentions and price motion as is pertinent to the scope of this project and this interface with liimited acceess to data allows. 
 
 ## Technologies
 
@@ -16,9 +16,11 @@ The PyData ecosystem has a number of core Python data containers that allow user
 
 * [pathlib](https://docs.python.org/3/library/pathlib.html#module-pathlib) - For the command line interface, help page, and entry-point.
 
-* [geopandas](https://geopandas.org/en/stable/)
-GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types. Geometric operations are performed by shapely. Geopandas further depends on fiona for file access and matplotlib for plotting.
----
+* [alpaca_trade_api](https://github.com/alpacahq/alpaca-trade-api-python) - Source repository.
+Alpaca offers simple, modern API-first solutions to enable anyone, either individuals or businesses, to connect applications and build algorithms to buy and sell stocks or crypto.
+
+* [dotenv](https://pypi.org/project/python-dotenv/) - Read key-value pairs from a .env file and set them as environment variables
+Python-dotenv reads key-value pairs from a .env file and can set them as environment variables. It helps in the development of applications following the 12-factor principles.
 
 ## Installation Guide
 
