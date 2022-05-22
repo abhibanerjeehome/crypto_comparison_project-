@@ -1,6 +1,27 @@
 # Meme impact on volatility across markets
 
-We are looking to evaluate the relationship between Social Commentary data and stock/cryptocurrency price motion. Here we are using the ‘mentions’ data to establish a high level view of this relationship and then proceed to further comb out that correlation in other coins. We will evaluate the relationship between mentions and price motion as is pertinent to the scope of this project and this interface with liimited acceess to data allows. 
+We are looking to evaluate the relationship between Social Commentary data and price volatility across stocks and cryptocurrencies. 
+We will use ‘mentions’ data to establish a high level view of this relationship.
+The scope of the project will include the most recent top 10 stocks and top 5 coins.
+We will evaluate the relationship between mentions and price motion as is pertinent to the scope of this project and this interface with what the data allows.
+
+
+# Research Questions to be Explored
+
+Are mentions driving the price or vice versa?
+Does the process go: marketing first, meme mentions, then price  OR volatility? 
+How do we render Graphs and Interactive Dashboards on a Web Page? 
+
+# Data Sources
+
+‘Mentions’ data to identify stocks and crypto of interest (apewisdom.io*) 
+Top 5 identified Cryptocurrencies (Alpaca) 
+Top 5 identified stocks (Alpaca - limited database*)
+Focusing on “top 5” might be a bit limiting, and the code if built out further would seek to  include a greater number of stocks/crypto, however, we believe that an initial sample of the “top 5”s respectively should present if there is a sufficient relationship to further pursue this project. 
+ApeWisdom* = we are currently using apewisdom to scrape data from the the last 24 hours of reddit. We need hourly data from the reddit api to understand the relationship between social data and price data so having an inhouse scraper that could grab data over a larger period of time would be great, but thats a project all on its own which we may visit later on in the course. 
+Limited database* = Alpaca only carries so many stocks/coins, there are perhaps other apis available if one were to seek much more obscure tickers.
+Caveat: Inclined to believe that we may miss notable insights by only looking at major stocks/ coins. 
+
 
 ## Technologies
 
