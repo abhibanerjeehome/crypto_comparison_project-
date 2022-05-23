@@ -54,14 +54,32 @@ import os
 from dotenv import load_dotenv
 import alpaca_trade_api as tradeapi
 import hvplot.pandas
+from datetime import date, datetime, timedelta
 ```
-
 ---
 
 ## Usage
 
-Use the social_meme_impact.ipynb notebook to evaluate the last 24 hour period in order to compare the five leading stocks and cryptocurrencies price motion against the meme 'mentions' activity from apewisdom API .
+- Use the included Jupyter notebooks to evaluate the last 24 hour period in order to compare the five leading stocks and cryptocurrencies price motion from Alpaca API, against the meme 'mentions' activity from apewisdom API .
 
+- We have two Jupyter Notebooks to generate Reports:
+
+1. stonk_social_meme_impact_final.ipynb
+
+This notebook contains code to generate a report summarizing correlation between Stock Price Movement and Social Mentions or Meme Activity.
+
+2. crypto_social_meme_impact_final.ipynb
+
+This notebook contains code to generate a report summarizing corelation found between Crypto Currency Price movements with Social Mentions or Meme Activity.
+
+
+- Use Voila to publish the notebooks as Reports on a web page.
+
+In Terminal, navigate to the location where the Jupyter Notebooks are present. Then type below commands:
+
+    voila stonk_social_meme_impact_final.ipynb
+
+    voila crypto_social_meme_impact_final.ipynb
 
 
 ---
